@@ -36,7 +36,7 @@
                             <span>Github</span>
                         </div>
                     </div>
-                </div>
+                </div><!-- social list -->
             </div>
         </div>
     </div>

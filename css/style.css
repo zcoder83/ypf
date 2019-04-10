@@ -497,6 +497,24 @@ h1, h2, h3, h4 {
   font-family: "Open Sans", sans-serif;
 }
 
+#portfolio .content .work-list {
+  width: 100%;
+}
+
+#portfolio .content .work-list .work-item {
+  width: 30%;
+}
+
+#portfolio .content .work-list .work-item .work-img {
+  display: block;
+  width: 100%;
+}
+
+#portfolio .content .work-list .work-item .work-img img {
+  display: block;
+  width: 100%;
+}
+
 #contact {
   background-image: url(../img/contact.jpg);
   background-repeat: no-repeat;

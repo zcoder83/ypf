@@ -8,14 +8,15 @@
             <div class="content clearfix">
                 <div class="work-list">
                 <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                <?php $image = get_field('image'); ?>
                     <div class="work-item">
-                        <a href="">
-                            <img class="work-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                            <div class=""></div>
+                        <a class="work-img" href="<?php the_permalink(); ?>">
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                            <div class="black-hover"></div>
                         </a>
-                        <h2 class="title"><?php echo get_field('title'); ?></h2>
+                        <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo get_field('title'); ?></a></h2>
                         <h3 class="subtitle"><?php echo get_field('subtitle'); ?></h3>
-                        <?php $image = get_field('image'); ?>
+                        
                         
                     </div>
                     <?php endwhile; endif; ?>

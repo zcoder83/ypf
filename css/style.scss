@@ -297,6 +297,7 @@ h1,h2,h3,h4 {
             font-size: 1.5rem;
             margin-bottom: 20px;
             font-weight: normal;
+            font-family: $open;
         }
    }
    .content {
@@ -343,5 +344,186 @@ h1,h2,h3,h4 {
                }
            }
        }
+       .skill-item:nth-child(2) {
+            .skillbar-title {
+                background-color: #2980B9;
+            }
+            .skillbar-bar {
+                background: rgb(52, 152, 219);
+                width: 65%;
+            }
+        }
+        .skill-item:nth-child(3) {
+            .skillbar-title {
+                background-color: #2C3E50;
+            }
+            .skillbar-bar {
+                background: rgb(81, 114, 146);
+                width: 35%;
+            }
+        }
+        .skill-item:nth-child(4) {
+            .skillbar-title {
+                background-color: #46465E;
+            }
+            .skillbar-bar {
+                background: rgb(90, 104, 165);
+                width: 50%;
+            }
+        }
+        .skill-item:nth-child(5) {
+            .skillbar-title {
+                background-color: #333333;
+            }
+            .skillbar-bar {
+                background: rgb(82, 82, 82);
+                width: 70%;
+            }
+        }
+        .skill-item:nth-child(6) {
+            .skillbar-title {
+                background-color: #27AE60;
+            }
+            .skillbar-bar {
+                background: rgb(46, 204, 113);
+                width: 80%;
+            }
+        }
+        .skill-item:nth-child(7) {
+            .skillbar-title {
+                background-color: #124E8C;
+            }
+            .skillbar-bar {
+                background: rgb(66, 136, 208);
+                width: 35%;
+            }
+        }
+        .skill-item:nth-child(8) {
+            .skillbar-title {
+                background-color: #EED800;
+            }
+            .skillbar-bar {
+                background: rgb(255, 231, 35);
+                width: 30%;
+            }
+        }
    }
+}
+#portfolio {
+    background-color: #F5F5F5;
+   .header {
+       padding-bottom: 50px;
+       h2 {
+        text-align: center;
+        color: #333;
+        font-size: 4.0rem;
+        margin: 20px auto;
+        letter-spacing: 1px;
+        }
+        h3 {
+            text-align: center;
+            color: #9F8E8E;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-family: $open;
+        }
+   }
+   .content {
+   }
+}
+
+
+#contact {
+    background-image: url(../img/contact.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-size: cover;
+    color: #fff;
+    vertical-align: bottom;
+    .black-st {
+        background-color: rgba(0, 0, 0, 0.8);
+        .row {
+            padding: 5%;
+            .header {
+                padding-bottom: 20px;
+                h2 {
+                    text-align: center;
+                    font-size: 4.0rem;
+                    margin: 20px auto;
+                    letter-spacing: 1px;
+                    }
+                h3 {
+                    font-size: 1.5rem;
+                    margin-bottom: 20px;
+                    font-weight: normal;
+                    font-family: $open;
+                }
+            }
+            .content {
+                padding: 0 15px;
+                font-size: 0;
+                form {
+                    padding: 0 15px;
+                    input {
+                        width: 30%;
+                        height: 50px;
+                        margin-top: 5px;
+                        margin-right: 5%;
+                        padding: 6px 12px;
+                        color: #555;
+                        border-radius: 4px;
+                        border: 1px solid #ccc;
+                        font-size: 1.4rem;
+                        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+                    }
+                    input:nth-child(3) {
+                        margin-right: 0;
+                    }
+                    textarea {
+                        width: 100%;
+                        margin: 40px 0;
+                        border-radius: 4px;
+                        border: 1px solid #ccc;
+                        font-size: 1.4rem;
+                        color: #555;
+                        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+                    }
+                    .submit {
+                        color: #fff;
+                        border: 2px solid #fff;
+                        background: transparent;
+                        height: 40px;
+                        width: 100px;
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        border-radius: 0;
+                        margin: 0;
+                        cursor: pointer;
+                    }
+                    .submit:hover {
+                        background-color: #fff;
+                        color: #181616;
+                    }
+                }
+            }
+        }
+    }
+}
+footer {
+    padding: 20px;
+    background: #272727;
+    color: #ffffff;
+    font-family: $open;
+    text-align: center;
+    .footer {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+    .wordpress {
+        font-size: 1.4rem;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
 }

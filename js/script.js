@@ -9,4 +9,6 @@ function doParallax(){
     social.style.backgroundPosition = "0 -" + positionYa + "px";
     var skill = document.getElementById("skill");
     skill.style.backgroundPosition = "0 -" + positionYb + "px";
+    var contact = document.getElementById("contact");
+    contact.style.backgroundPosition = "0 -" + positionYb + "px";
 }

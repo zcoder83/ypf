@@ -357,6 +357,7 @@ h1, h2, h3, h4 {
   font-size: 1.5rem;
   margin-bottom: 20px;
   font-weight: normal;
+  font-family: "Open Sans", sans-serif;
 }
 
 #skill-detail .content .skill-item {
@@ -406,5 +407,204 @@ h1, h2, h3, h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   line-height: 35px;
+}
+
+#skill-detail .content .skill-item:nth-child(2) .skillbar-title {
+  background-color: #2980B9;
+}
+
+#skill-detail .content .skill-item:nth-child(2) .skillbar-bar {
+  background: #3498db;
+  width: 65%;
+}
+
+#skill-detail .content .skill-item:nth-child(3) .skillbar-title {
+  background-color: #2C3E50;
+}
+
+#skill-detail .content .skill-item:nth-child(3) .skillbar-bar {
+  background: #517292;
+  width: 35%;
+}
+
+#skill-detail .content .skill-item:nth-child(4) .skillbar-title {
+  background-color: #46465E;
+}
+
+#skill-detail .content .skill-item:nth-child(4) .skillbar-bar {
+  background: #5a68a5;
+  width: 50%;
+}
+
+#skill-detail .content .skill-item:nth-child(5) .skillbar-title {
+  background-color: #333333;
+}
+
+#skill-detail .content .skill-item:nth-child(5) .skillbar-bar {
+  background: #525252;
+  width: 70%;
+}
+
+#skill-detail .content .skill-item:nth-child(6) .skillbar-title {
+  background-color: #27AE60;
+}
+
+#skill-detail .content .skill-item:nth-child(6) .skillbar-bar {
+  background: #2ecc71;
+  width: 80%;
+}
+
+#skill-detail .content .skill-item:nth-child(7) .skillbar-title {
+  background-color: #124E8C;
+}
+
+#skill-detail .content .skill-item:nth-child(7) .skillbar-bar {
+  background: #4288d0;
+  width: 35%;
+}
+
+#skill-detail .content .skill-item:nth-child(8) .skillbar-title {
+  background-color: #EED800;
+}
+
+#skill-detail .content .skill-item:nth-child(8) .skillbar-bar {
+  background: #ffe723;
+  width: 30%;
+}
+
+#portfolio {
+  background-color: #F5F5F5;
+}
+
+#portfolio .header {
+  padding-bottom: 50px;
+}
+
+#portfolio .header h2 {
+  text-align: center;
+  color: #333;
+  font-size: 4.0rem;
+  margin: 20px auto;
+  letter-spacing: 1px;
+}
+
+#portfolio .header h3 {
+  text-align: center;
+  color: #9F8E8E;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+#contact {
+  background-image: url(../img/contact.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-size: cover;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+#contact .black-st {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#contact .black-st .row {
+  padding: 5%;
+}
+
+#contact .black-st .row .header {
+  padding-bottom: 20px;
+}
+
+#contact .black-st .row .header h2 {
+  text-align: center;
+  font-size: 4.0rem;
+  margin: 20px auto;
+  letter-spacing: 1px;
+}
+
+#contact .black-st .row .header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+#contact .black-st .row .content {
+  padding: 0 15px;
+  font-size: 0;
+}
+
+#contact .black-st .row .content form {
+  padding: 0 15px;
+}
+
+#contact .black-st .row .content form input {
+  width: 30%;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 5%;
+  padding: 6px 12px;
+  color: #555;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+#contact .black-st .row .content form input:nth-child(3) {
+  margin-right: 0;
+}
+
+#contact .black-st .row .content form textarea {
+  width: 100%;
+  margin: 40px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+  color: #555;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+#contact .black-st .row .content form .submit {
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  height: 40px;
+  width: 100px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-radius: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#contact .black-st .row .content form .submit:hover {
+  background-color: #fff;
+  color: #181616;
+}
+
+footer {
+  padding: 20px;
+  background: #272727;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+footer .footer {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+footer .wordpress {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -434,22 +434,58 @@ h1,h2,h3,h4 {
         width: 100%;
            .work-item {
                width: 30%;
+               background-color: #fff;
                .work-img {
                    display: block;
                    width: 100%;
+                   position: relative;
                    img {
                         display: block;
                         width: 100%;
                    }
+                   .black-hover {
+                       width: 100%;
+                       height: 100%;
+                       background-color: rgba(0, 0, 0, 0.5);
+                       position: absolute;
+                       top: 0;
+                       left: 0;
+                       opacity: 0;
+                       transition: all ease 0.5s;
+                       -webkit-transition: all ease 0.5s;
+                       text-align: center;
+                       i {
+                           color: #ffffff;
+                           font-size: 5rem;
+                           margin: 25%;
+                       }
+                   }
                }
-           }
-           h2 {
-               a {
-
+               .work-img:hover .black-hover {
+                   opacity: 1;
                }
-           }
-           h3 {
-
+               .work-txt {
+                    padding: 25px;
+                    text-align: center;
+                    h2 {
+                        font-weight: 500;
+                        a {
+                            color: #000000;
+                            font-size: 1.8rem;
+                            display: block;
+                            width: 70%;
+                            font-family: $open;
+                            margin: auto;
+                        }
+                    }
+                    h3 {
+                        font-weight: 500;
+                        color: #333;
+                        font-size: 1.2rem;
+                        font-family: $open;
+                        line-height: 1.4;
+                    }
+               }
            }
        }
    }

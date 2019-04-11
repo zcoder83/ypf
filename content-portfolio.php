@@ -12,12 +12,14 @@
                     <div class="work-item">
                         <a class="work-img" href="<?php the_permalink(); ?>">
                             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-                            <div class="black-hover"></div>
+                            <div class="black-hover">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </a>
-                        <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo get_field('title'); ?></a></h2>
-                        <h3 class="subtitle"><?php echo get_field('subtitle'); ?></h3>
-                        
-                        
+                        <div class="work-txt">
+                            <h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo get_field('title'); ?></a></h2>
+                            <h3 class="subtitle"><?php echo get_field('subtitle'); ?></h3>
+                        </div>
                     </div>
                     <?php endwhile; endif; ?>
                 </div><!-- work-list -->

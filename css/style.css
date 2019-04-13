@@ -497,13 +497,20 @@ h1, h2, h3, h4 {
   font-family: "Open Sans", sans-serif;
 }
 
+#portfolio .content {
+  padding: 0 15px;
+}
+
 #portfolio .content .work-list {
   width: 100%;
+  font-size: 0;
 }
 
 #portfolio .content .work-list .work-item {
-  width: 30%;
+  width: 31%;
   background-color: #fff;
+  display: inline-block;
+  margin: 1.75% 3.5% 1.75% 0;
 }
 
 #portfolio .content .work-list .work-item .work-img {
@@ -515,6 +522,7 @@ h1, h2, h3, h4 {
 #portfolio .content .work-list .work-item .work-img img {
   display: block;
   width: 100%;
+  vertical-align: bottom;
 }
 
 #portfolio .content .work-list .work-item .work-img .black-hover {
@@ -564,6 +572,10 @@ h1, h2, h3, h4 {
   font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.4;
+}
+
+#portfolio .content .work-list .work-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 #contact {
@@ -675,5 +687,126 @@ footer .wordpress {
   font-size: 1.4rem;
   line-height: 1.4;
   margin-bottom: 10px;
+}
+
+.single {
+  position: relative;
+}
+
+.single .top-page {
+  position: fixed;
+  top: 70px;
+  left: 70px;
+  width: 70px;
+  height: 70px;
+  z-index: 1000;
+}
+
+.single .top-page a {
+  display: block;
+  width: 100%;
+}
+
+.single .top-page a img {
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.single .top {
+  background-image: url(../img/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.single .top .black-st {
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.single .top .black-st .top-inner {
+  width: 50%;
+  padding: 0 20px;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.single .top .black-st .top-inner .zcoder {
+  font-size: 5.0rem;
+  font-family: "Roboto Slab", serif;
+  margin: 20px 0;
+}
+
+.single .top .black-st .top-inner .title-desc {
+  font-size: 2.1rem;
+  font-family: "Roboto Slab", serif;
+  margin: 0 0 20px;
+}
+
+.single .container .row {
+  width: 75%;
+  margin: auto;
+}
+
+.single .container .row h1 {
+  font-size: 3.0rem;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.single .container .row img {
+  width: 100%;
+}
+
+.single .container .row p {
+  font-size: 2.0rem;
+  margin: 20px 0 45px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+.single .container .row .pagenav {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.single .container .row .pagenav .previous {
+  float: left;
+  padding-top: 20px;
+}
+
+.single .container .row .pagenav .previous a {
+  padding: 15px 25px;
+  border: 1px solid #ddd;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.single .container .row .pagenav .previous a:hover {
+  color: #337ab7;
+}
+
+.single .container .row .pagenav .next {
+  float: right;
+  padding-top: 20px;
+}
+
+.single .container .row .pagenav .next a {
+  padding: 15px 25px;
+  border: 1px solid #ddd;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.single .container .row .pagenav .next a:hover {
+  color: #337ab7;
 }
 /*# sourceMappingURL=style.css.map */

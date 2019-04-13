@@ -7,7 +7,10 @@
             </div>
             <div class="content clearfix">
                 <div class="work-list">
-                <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                <?php 
+                // the query
+                $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+                <?php if( $wpb_all_query->have_posts()): while($wpb_all_query->have_posts()): $wpb_all_query->the_post(); ?>
                 <?php $image = get_field('image'); ?>
                     <div class="work-item">
                         <a class="work-img" href="<?php the_permalink(); ?>">

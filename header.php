@@ -10,4 +10,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <?php wp_head(); ?>
 </head>
-<body <?php body_class($class); ?>>
+<body <?php body_class($class); ?> onload="myFunction()">
+    <!-- <div id="loader"></div> -->
+    <div class="loader-position">
+    <div class="lds-ellipsis" id="loaders"><div></div><div></div><div></div><div></div></div>
+    </div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+

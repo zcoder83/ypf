@@ -1,15 +1,15 @@
 <section class="about" id="about">
     <div class="container">
         <div class="row">
-            <div class="header">
+            <div class="header hideme">
                 <h2>About Me</h2>
                 <h3>Here are some things that you should know about me.</h3>
             </div>
             <div class="content clearfix">
-                <div class="con-left">
+                <div class="con-left hideme">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/myself.jpg" alt="myself">
                 </div>
-                <div class="con-right">
+                <div class="con-right hideme">
                     <h3>Jeong YeonKwan</h3>
                     <span>Front-End Web Developer</span>
                     <div class="me-desc">

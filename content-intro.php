@@ -4,7 +4,8 @@
             <div class="avatar"></div>
             <h1>JEONG YEONKWAN</h1>
             <h2>Front-End Web Developer</h2>
-            <a href="#about" class="arrow">
+            <div id="button"></div>
+            <a href="#about" class="arrow scroll">
                 <i class="fa fa-arrow-circle-down"></i>
             </a>
         </div>

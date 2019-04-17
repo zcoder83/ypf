@@ -71,7 +71,7 @@ $j(document).ready(function() {
               /* If the object is completely visible in the window, fade it it */
               if( bottom_of_window > bottom_of_object ){
                   
-                  $j(this).animate({'opacity':'1'},1500);
+                  $j(this).animate({'opacity':'1'},800);
                       
               }
               
@@ -80,3 +80,6 @@ $j(document).ready(function() {
       });
       
   });
+$j(function(){
+  $j('.showme').fadeIn(6000);
+});

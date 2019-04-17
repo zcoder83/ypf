@@ -2,10 +2,10 @@
     <div class="black-st">
         <div class="container align-center">
             <div class="row">
-                <div class="header">
+                <div class="header hideme">
                     <h2>Social</h2>
                 </div>
-                <div class="social-list">
+                <div class="social-list hideme">
                     <div class="social-item">
                         <div class="social-inner">
                             <div class="icon">

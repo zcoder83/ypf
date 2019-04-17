@@ -2,7 +2,7 @@
     <div class="black-st">
         <div class="container align-center">
             <div class="row">
-                <div class="header">
+                <div class="header hideme">
                     <h2>Check my career!</h2>
                 </div>
             </div>
@@ -12,11 +12,11 @@
 <section class="skill-detail" id="skill-detail">
     <div class="container">
         <div class="row">
-            <div class="header">
+            <div class="header hideme">
                 <h2>Skills</h2>
                 <h3>Things that I'm good at.</h3>
             </div>
-            <div class="content clearfix">
+            <div class="content clearfix hideme">
                <div class="skill-item">
                     <div class="skillbar">
                         <div class="skillbar-title"><span>HTML</span></div>

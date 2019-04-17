@@ -1,12 +1,12 @@
 <section class="services" id="services">
     <div class="container">
         <div class="row">
-            <div class="header">
+            <div class="header hideme">
                 <h2>Services</h2>
                 <h3>Things that I work on.</h3>
             </div>
             <div class="content">
-                <div class="service-list">
+                <div class="service-list hideme">
                     <div class="service-item">
                         <div class="service-icon">
                             <i class="fab fa-html5"></i>
@@ -29,7 +29,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div class="service-list">
+                <div class="service-list hideme">
                     <div class="service-item">
                         <div class="service-icon">
                             <i class="fas fa-search"></i>

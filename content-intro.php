@@ -1,4 +1,4 @@
-<section class="intro" id="intro">
+<section class="intro showme" id="intro">
     <div class="black-st">
         <div class="container align-center">
             <div class="avatar"></div>

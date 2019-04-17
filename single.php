@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-<div class="top-page">
+<div class="top-page showme">
     <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/char.jpg" alt="myface"></a>
 </div>
-<div class="top">
+<div class="top showme">
     <div class="black-st">
         <div class="top-inner">
             <p class="zcoder">Zcoder</p>
@@ -10,7 +10,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container showme">
     <?php if(have_posts()): while(have_posts()): the_post(); ?>
     <?php $image = get_field('image'); ?>
     <div class="row">

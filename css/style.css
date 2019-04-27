@@ -1046,5 +1046,105 @@ footer .wordpress {
   #services .row {
     padding: 40px 0;
   }
+  #services .header {
+    padding-bottom: 0;
+  }
+  #services .content .service-list {
+    display: block;
+  }
+  #services .content .service-list .service-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  #skill .row .header h2 {
+    font-size: 3.0rem;
+    margin: 20px auto 0;
+  }
+  #skill-detail .row {
+    padding: 40px 0 0;
+  }
+  #skill-detail .row .header {
+    padding-bottom: 0;
+  }
+  #skill-detail .row .header h2 {
+    font-size: 3.0rem;
+    margin: 0 auto 10px;
+  }
+  #portfolio .row {
+    padding: 20px 0;
+  }
+  #portfolio .header h2 {
+    font-size: 3.0rem;
+    margin: 20px auto 10px;
+  }
+  #portfolio .header {
+    padding-bottom: 0;
+  }
+  #portfolio .content .work-list .work-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #contact .black-st .row .header h2 {
+    font-size: 3.0rem;
+    margin: 20px auto 10px;
+  }
+  #contact .black-st .row .header {
+    padding-bottom: 0;
+  }
+  #contact .black-st .row .content form input {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  #contact .black-st .row .content form textarea {
+    margin: 20px 0;
+  }
+  .single .top .black-st {
+    padding: 30px 0;
+  }
+  .single .top-page {
+    top: 20%;
+    left: 78%;
+    width: 50px;
+    height: 50px;
+  }
+  .single .top .black-st .top-inner .zcoder {
+    font-size: 4.0rem;
+    margin: 20px 0 10px;
+  }
+  .single .top .black-st .top-inner .title-desc {
+    font-size: 1.5rem;
+  }
+  .single .container .row {
+    width: 100%;
+    padding: 25px 10px;
+  }
+  .single-work-desc {
+    margin: 10px 0;
+  }
+  .single-work-desc li h2 {
+    font-size: 1.7rem;
+    padding: 5px 0;
+  }
+  .single-work-desc li p {
+    font-size: 1.3rem;
+  }
+  .single .container .row .pagenav .previous a {
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+  .single .container .row .pagenav .next a {
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #social .row .social-list {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

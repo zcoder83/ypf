@@ -10,12 +10,13 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/myself.jpg" alt="myself">
                 </div>
                 <div class="con-right hideme">
-                    <h3>Jeong YeonKwan</h3>
-                    <span>Front-End Web Developer</span>
+                    <h3>鄭然寛（チョン　ヨンカン）</h3>
+                    <span>フロントエンドエンジニア</span>
                     <div class="me-desc">
-                        <p>Latte is a one-page parallax WordPress theme for developers, designers & freelancers, to showcase their profile and portfolio.</p>
-                        <p>It comes with many options, including services section, portfolio, maps, contact form, testimonials, pricing tables, and more.</p>
-                        <p>Plus, it's easy to customize! You don't need a page builder or a drag & drop editor. Every thing can be customized straight from the WordPress Customizer.</p>
+                        <p>韓国生まれ、2014年9月日本に入国。海外営業、旅行マネジャーの仕事を通して英語、日本語を習得。</p>
+                        <p>プログラミング言語の独学をきっかけでWEB業界に足を踏み出し、職業訓練のWEBサイト制作過程（半年）を終了。</p>
+                        <p>もっときれいなコーディング、美しい動きをWEB上で実現するのを目指している。お客さんに気に入ってビジネス側にもよい影響与えられるWEBサイトが作りたい。</p>
+                        <p>タグ：フットサル、筋トレ、韓国料理、健康、動物、親友</p>
                     </div>
                 </div>
             </div>

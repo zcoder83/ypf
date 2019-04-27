@@ -36,7 +36,7 @@ $j(document).ready(function() {
       e.preventDefault();
       $j('body,html').animate({
         scrollTop: $j(this.hash).offset().top
-      }, 1000 );
+      }, 1200 );
     });
     
     // Active link switching

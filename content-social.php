@@ -9,7 +9,7 @@
                     <div class="social-item">
                         <div class="social-inner">
                             <div class="icon">
-                                <a href="" target="_blank">
+                                <a href="https://www.facebook.com/yeonkwan.jeong" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </div>
@@ -19,7 +19,7 @@
                     <div class="social-item">
                         <div class="social-inner">
                             <div class="icon">
-                                <a href="" target="_blank">
+                                <a href="https://www.instagram.com/dokotoday/" target="_blank">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
@@ -29,7 +29,7 @@
                     <div class="social-item">
                         <div class="social-inner">
                             <div class="icon">
-                                <a href="" target="_blank">
+                                <a href="https://github.com/zcoder83" target="_blank">
                                     <i class="fab fa-github-square"></i>
                                 </a>
                             </div>

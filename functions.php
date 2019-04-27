@@ -10,3 +10,11 @@ function add_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
+
+function hs_image_editor_default_to_gd( $editors ) {
+    $gd_editor = 'WP_Image_Editor_GD';
+    $editors = array_diff( $editors, array( $gd_editor ) );
+    array_unshift( $editors, $gd_editor );
+    return $editors;
+    }
+    add_filter( 'wp_image_editors', 'hs_image_editor_default_to_gd' );
